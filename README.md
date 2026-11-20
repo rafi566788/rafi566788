@@ -1,5 +1,3 @@
-
-[README.md](https://github.com/user-attachments/files/35182976/README.md)
 <div align="center">
 
 # MD. RAFI ALI
