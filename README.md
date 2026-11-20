@@ -45,7 +45,7 @@ I work with **n8n, Make.com, LLM APIs, REST APIs, Webhooks, JSON, and workflow i
 
 A course inquiry intake workflow designed to validate incoming requests, detect duplicates, log rejected or duplicate submissions, process valid requests with an AI step, and route the result to the appropriate destination. The workflow includes retry/fallback handling and response paths.
 
-![Course Inquiry Auto-Triage Bot]![Course Inquiry Auto-Triage Bot](./assets/course-inquiry.png)
+![Course Inquiry Auto-Triage Bot](./assets/course-inquiry.png)
 
 ### 2. RAG-Powered Gmail Knowledge Assistant
 
