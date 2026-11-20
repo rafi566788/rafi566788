@@ -1,147 +1,129 @@
-[README.md](https://github.com/user-attachments/files/35182931/README.md)
-::: {align="center"}
+[README.md](https://github.com/user-attachments/files/35182976/README.md)
+<div align="center">
+
 # MD. RAFI ALI
 
-### AI Automation Developer \| AI Agent Developer
+### AI Automation Developer · AI Agent Developer · Workflow Integration
 
-I build practical AI-powered automation systems, intelligent agents, and
-workflow integrations that help businesses save time and improve
-operations.
+Building practical AI-powered workflows that connect business tools, reduce repetitive tasks, and improve customer operations.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github)](https://github.com/rafi566788)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
-:::
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-rafi-al-hasan-199b72377/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mdrafialh@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-rafi566788-181717?style=for-the-badge&logo=github)](https://github.com/rafi566788)
 
-------------------------------------------------------------------------
+</div>
+
+---
 
 ## About Me
 
-I am an AI Automation and AI Agent Developer focused on building useful
-business solutions with workflow automation, LLMs, APIs, and webhooks.
+I'm an AI Automation and AI Agent Developer focused on building workflow-based solutions for business operations, customer support, lead handling, and information retrieval.
 
--   Building AI agents and end-to-end automation workflows
--   Working with **n8n, Make.com, OpenAI, Gemini, Claude, and REST
-    APIs**
--   Interested in customer support automation, lead management,
-    e-commerce workflows, and business process automation
--   Continuously learning, building, documenting, and improving
-    real-world projects
+I work with **n8n, Make.com, LLM APIs, REST APIs, Webhooks, JSON, and workflow integrations**. I enjoy turning manual processes into structured automations with validation, routing, notifications, and error-handling paths.
+
+- **Primary focus:** AI agents, workflow automation, and API integrations
+- **Automation platforms:** n8n and Make.com
+- **AI integrations shown in my projects:** Claude, Google Gemini, and Groq
+- **Data and knowledge tools:** Google Sheets and Supabase Vector Store
+- **Collaboration:** Open to learning, project collaboration, and suitable remote opportunities
 
 ## What I Build
 
--   **AI Agents & Chatbots** --- FAQ assistants, customer support
-    agents, and knowledge-base assistants
--   **Workflow Automation** --- n8n and Make.com integrations for
-    repetitive business processes
--   **Lead Management** --- lead capture, qualification, routing, and
-    follow-up workflows
--   **Business Integrations** --- API, webhook, Google Sheets, email,
-    and CRM integrations
--   **AI-Powered Reporting** --- automated data processing, summaries,
-    and notifications
-
-## Technical Skills
-
-  Area                     Tools & Technologies
-  ------------------------ ----------------------------------------
-  Workflow Automation      n8n, Make.com
-  AI & LLMs                OpenAI API, Google Gemini, Claude
-  Integration              REST API, Webhooks, JSON
-  Data & Knowledge         Google Sheets, Supabase, RAG
-  Development              JavaScript, Data Processing
-  Communication Channels   Facebook Messenger, WhatsApp, Telegram
+- AI-powered customer support and email assistants
+- Lead intake, validation, qualification, and routing workflows
+- RAG-based knowledge assistants with vector search
+- Complaint and ticket classification workflows
+- Form, attendance, and spreadsheet automation
+- API-connected media processing and delivery workflows
 
 ## Featured Projects
 
-> Replace each `ADD_REPOSITORY_LINK` and `ADD_DEMO_LINK` with the actual
-> links before publishing. Only list projects that are uploaded and
-> ready to review.
+> The screenshots below show workflow designs shared from my project workspace. Repository links, exported workflow JSON, setup instructions, and live demos can be added as they are published. A School Attendance Management workflow was also shown in the conversation; its screenshot is not included in this downloadable package.
 
-### 1. AI-Powered Customer Support Agent
+### 1. Course Inquiry Auto-Triage Bot
 
-An AI assistant designed to answer customer questions using business
-information and route requests when human support is needed.
+**Platform:** n8n · Claude API · Google Sheets · Slack · Gmail · Webhooks
 
--   **Tools:** n8n, LLM API, Webhooks, Knowledge Base
--   **Repository:** [View project](ADD_REPOSITORY_LINK)
--   **Demo:** [Watch demo](ADD_DEMO_LINK)
+A course inquiry intake workflow designed to validate incoming requests, detect duplicates, log rejected or duplicate submissions, process valid requests with an AI step, and route the result to the appropriate destination. The workflow includes retry/fallback handling and response paths.
 
-### 2. Course Inquiry Auto-Triage System
+![Course Inquiry Auto-Triage Bot](assets/course-inquiry-auto-triage.png)
 
-Captures course inquiries, organizes submitted information, and helps
-prioritize follow-up.
+### 2. RAG-Powered Gmail Knowledge Assistant
 
--   **Tools:** n8n, AI, Google Sheets, Webhooks
--   **Repository:** [View project](ADD_REPOSITORY_LINK)
--   **Demo:** [Watch demo](ADD_DEMO_LINK)
+**Platform:** n8n · Google Drive · Google Gemini Embeddings · Supabase Vector Store · Groq · Gmail
 
-### 3. AI-Powered Complaint Management
+A knowledge-assistant workflow with a document-ingestion path from Google Drive into a Supabase Vector Store. A separate Gmail-triggered path passes incoming messages to an AI Agent connected to a chat model, memory, and the vector store, then sends a reply.
 
-Receives complaints, classifies requests, records case details, and
-notifies the relevant team.
+![RAG Gmail Knowledge Assistant](assets/rag-gmail-knowledge-assistant.png)
 
--   **Tools:** n8n, AI, Google Sheets, Gmail
--   **Repository:** [View project](ADD_REPOSITORY_LINK)
--   **Demo:** [Watch demo](ADD_DEMO_LINK)
+### 3. Gemini-Powered Inquiry Priority Routing
 
-### 4. RAG Knowledge-Base Assistant
+**Platform:** Make.com · Google Forms · Google Gemini AI · JSON · Router · Gmail · Google Sheets
 
-A retrieval-augmented assistant that uses a supplied knowledge base to
-provide relevant answers.
+A form-response automation that sends submitted information to Gemini, parses the structured response, and routes it by priority. The visible branches send high-priority cases through Gmail and record other priority levels in Google Sheets. A resume path is also included.
 
--   **Tools:** LLM API, RAG, Supabase or vector database, n8n
--   **Repository:** [View project](ADD_REPOSITORY_LINK)
--   **Demo:** [Watch demo](ADD_DEMO_LINK)
+![Gemini Inquiry Priority Routing](assets/make-gemini-inquiry-routing.png)
 
-### 5. AI Lead Qualification Workflow
+### 4. Webhook-Based AI Agent
 
-Collects lead details, evaluates submitted information against defined
-criteria, and routes qualified leads for follow-up.
+**Platform:** n8n · Webhooks · Groq Chat Model · Simple Memory · HTTP Request
 
--   **Tools:** n8n, AI, Webhooks, Google Sheets
--   **Repository:** [View project](ADD_REPOSITORY_LINK)
--   **Demo:** [Watch demo](ADD_DEMO_LINK)
+A webhook-triggered AI Agent workflow with request filtering, a Groq chat model, simple memory, and an HTTP Request step. It includes a webhook response path for incoming GET requests.
 
-### 6. AI-Powered School Attendance Management
+![Webhook AI Agent](assets/webhook-ai-agent.png)
 
-A workflow concept for collecting attendance submissions, validating
-information, routing records, and maintaining organized attendance data.
+### 5. AI Complaint & Ticket Management Agent
 
--   **Tools:** n8n, Forms, Google Sheets, AI/API integrations
--   **Repository:** [View project](ADD_REPOSITORY_LINK)
--   **Demo:** [Watch demo](ADD_DEMO_LINK)
+**Platform:** n8n · Claude Model · Google Sheets · Gmail · Forms
 
-## How I Work
+A complaint-handling workflow that normalizes form input, classifies complaints with an AI model, creates a ticket record, stores it in Google Sheets, and sends a customer confirmation. A priority check can notify the support team about high-priority tickets. A separate scheduled path checks open tickets and sends follow-up reminders.
 
-1.  Understand the business problem and requirements.
-2.  Design the workflow and identify the required integrations.
-3.  Build and test the automation and error-handling paths.
-4.  Document the setup, workflow, and limitations.
-5.  Refine the solution based on feedback.
+![AI Complaint and Ticket Management](assets/ai-complaint-ticket-management.png)
 
-## Education & Training
+### 6. Video Editing & Delivery Automation
 
--   **Honours --- Zoology**, National University, Bangladesh --- 2nd
-    Year (Ongoing)
--   **AI Agent Development & AI Automation Training** --- Ustad
+**Platform:** n8n · HTTP APIs · Google Drive · YouTube
 
-## Experience
+A media-delivery workflow that receives edit information, validates assets, prepares and submits a render job, checks render status, and evaluates the result. Successful output is downloaded, saved to Google Drive, and sent to YouTube for upload; failure and timeout paths are also visible.
 
-**ICT Teacher** --- North Bengal Residential School and College\
-2025--2026
+![Video Editing and Delivery Automation](assets/video-edit-delivery-automation.png)
+
+## Technology Stack
+
+**Automation:** n8n · Make.com
+
+**AI / LLM:** Claude API · Google Gemini API · Groq · AI Agents · Embeddings
+
+**Integration:** REST API · Webhooks · HTTP Requests · JSON
+
+**Data & Knowledge:** Google Sheets · Google Drive · Supabase Vector Store · RAG
+
+**Communication & Delivery:** Gmail · Slack · YouTube
+
+## GitHub Activity
+
+<div align="center">
+
+![Rafi's GitHub stats](https://github-readme-stats.vercel.app/api?username=rafi566788&show_icons=true&theme=tokyonight&hide_border=true)
+
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rafi566788&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
 
 ## Let's Connect
 
-I am interested in learning opportunities, practical collaborations, and
-suitable AI automation projects.
+I'm interested in connecting with developers, businesses, and teams exploring practical AI automation and agent-based workflows.
 
--   **LinkedIn:** ADD_YOUR_LINKEDIN_URL
--   **Email:** YOUR_EMAIL@example.com
--   **Portfolio:** ADD_YOUR_PORTFOLIO_URL
+- **LinkedIn:** [md-rafi-al-hasan](https://www.linkedin.com/in/md-rafi-al-hasan-199b72377/)
+- **Email:** [mdrafialh@gmail.com](mailto:mdrafialh@gmail.com)
+- **GitHub:** [@rafi566788](https://github.com/rafi566788)
 
-------------------------------------------------------------------------
+---
 
-::: {align="center"}
-*Building useful automation, one workflow at a time.*
-:::
+<div align="center">
+
+**Thanks for visiting my profile!**
+
+*Build smarter workflows. Automate repetitive work. Keep improving.*
+
+</div>
